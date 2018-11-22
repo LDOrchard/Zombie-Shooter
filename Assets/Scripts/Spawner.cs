@@ -1,14 +1,17 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class Spawner : MonoBehaviour {
+public class Spawner : MonoBehaviour
 
-    public GameObject PrefabMob;
-    
-	// Update is called once per frame
-	void FixedUpdate ()
+{
+    public GameObject prefabToSpawn;
+    public float adjustmentAngle = 0;
+    public void Spawn()
+
     {
-        Instantiate(PrefabMob);
+        Vector3 rotationInDegrees = transform.eulerAngles;
+        rotationInDegrees.z += adjustmentAngle;
+        Quaternion rotationInRadians = Quaternion.Euler(rotationInDegrees);
+        Instantiate(prefabToSpawn, transform.position, rotationInRadians);
     }
+
 }

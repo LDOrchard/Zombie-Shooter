@@ -1,11 +1,13 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2017
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zombie-Shooter", "Zombie-Shooter.csproj", "{383AC034-B810-701F-7761-D2A95A5426BC}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zombie-Shooter", "Assembly-CSharp.csproj", "{2B1FF7E8-981C-2279-426C-F05D8D24AF68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zombie-Shooter.Editor", "Zombie-Shooter.Editor.csproj", "{526DCC84-100B-62B6-D39A-B14D8F01C987}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zombie-Shooter", "AstarPathfindingProject.csproj", "{C19A2DC4-DE03-DD9F-BC46-38B8E81186CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zombie-Shooter.Editor", "Zombie-Shooter.Editor.csproj", "{526DCC84-100B-62B6-D39A-B14D8F01C987}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zombie-Shooter", "AstarPathfindingProjectEditor.csproj", "{9FAEAB87-9208-CC4E-4B3F-6F3887F83452}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zombie-Shooter", "PackageToolsEditor.csproj", "{50288BD5-52F1-5E5E-5597-4415A0C6A9C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,20 +15,27 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{383AC034-B810-701F-7761-D2A95A5426BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{383AC034-B810-701F-7761-D2A95A5426BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{383AC034-B810-701F-7761-D2A95A5426BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{383AC034-B810-701F-7761-D2A95A5426BC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{526DCC84-100B-62B6-D39A-B14D8F01C987}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{526DCC84-100B-62B6-D39A-B14D8F01C987}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{526DCC84-100B-62B6-D39A-B14D8F01C987}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{526DCC84-100B-62B6-D39A-B14D8F01C987}.Release|Any CPU.Build.0 = Release|Any CPU
-		{526DCC84-100B-62B6-D39A-B14D8F01C987}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{526DCC84-100B-62B6-D39A-B14D8F01C987}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{526DCC84-100B-62B6-D39A-B14D8F01C987}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{526DCC84-100B-62B6-D39A-B14D8F01C987}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B1FF7E8-981C-2279-426C-F05D8D24AF68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B1FF7E8-981C-2279-426C-F05D8D24AF68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B1FF7E8-981C-2279-426C-F05D8D24AF68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B1FF7E8-981C-2279-426C-F05D8D24AF68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C19A2DC4-DE03-DD9F-BC46-38B8E81186CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C19A2DC4-DE03-DD9F-BC46-38B8E81186CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C19A2DC4-DE03-DD9F-BC46-38B8E81186CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C19A2DC4-DE03-DD9F-BC46-38B8E81186CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FAEAB87-9208-CC4E-4B3F-6F3887F83452}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FAEAB87-9208-CC4E-4B3F-6F3887F83452}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FAEAB87-9208-CC4E-4B3F-6F3887F83452}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FAEAB87-9208-CC4E-4B3F-6F3887F83452}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50288BD5-52F1-5E5E-5597-4415A0C6A9C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50288BD5-52F1-5E5E-5597-4415A0C6A9C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50288BD5-52F1-5E5E-5597-4415A0C6A9C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50288BD5-52F1-5E5E-5597-4415A0C6A9C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal
