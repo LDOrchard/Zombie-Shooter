@@ -272,6 +272,9 @@
  <Reference Include="UnityEngine.SpatialTracking">
  <HintPath>E:/Programs/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
+ <Reference Include="Pathfinding.Ionic.Zip.Reduced">
+ <HintPath>E:/Documents/GitHub/Zombie-Shooter/Assets/Pathfinding ToolKit/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.Analytics">
  <HintPath>C:/Users/Lil/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
  </Reference>
@@ -280,9 +283,6 @@
  </Reference>
  <Reference Include="UnityEngine.StandardEvents">
  <HintPath>C:/Users/Lil/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
- </Reference>
- <Reference Include="Pathfinding.Ionic.Zip.Reduced">
- <HintPath>E:/Documents/GitHub/Zombie-Shooter/Assets/Pathfinding ToolKit/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>E:/Programs/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>
@@ -313,12 +313,12 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="AstarPathfindingProject.csproj">
+      <Project>{C19A2DC4-DE03-DD9F-BC46-38B8E81186CE}</Project>      <Name>AstarPathfindingProject</Name>    </ProjectReference>
     <ProjectReference Include="PackageToolsEditor.csproj">
       <Project>{50288BD5-52F1-5E5E-5597-4415A0C6A9C7}</Project>      <Name>PackageToolsEditor</Name>    </ProjectReference>
     <ProjectReference Include="AstarPathfindingProjectEditor.csproj">
       <Project>{9FAEAB87-9208-CC4E-4B3F-6F3887F83452}</Project>      <Name>AstarPathfindingProjectEditor</Name>    </ProjectReference>
-    <ProjectReference Include="AstarPathfindingProject.csproj">
-      <Project>{C19A2DC4-DE03-DD9F-BC46-38B8E81186CE}</Project>      <Name>AstarPathfindingProject</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
